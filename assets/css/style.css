@@ -53,15 +53,20 @@ time, mark, audio, video {
 /* Content of index page */
 
 .content {
-    margin-top: 85px;
-    text-align: center;
-    
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 50px;
 }
-.category-tag {
+
+
+article {
     text-align: center;
+}
+
+.category-tag {
     font-size: 13px;
     font-family: 'News Cycle', sans-serif;
-    color: rgb(251, 201, 209);
+    color: rgb(250, 178, 190);
 }
 
 .entry-title-link {
@@ -75,4 +80,20 @@ time, mark, audio, video {
     font-family: 'News Cycle', sans-serif;
     font-size: 15px;
     margin-bottom: 10px;
+}
+
+.entry-paragraph {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 17px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#see-more {
+    margin-top: 30px;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 15px;
+    background-color: rgb(250, 171, 184);
+    color: black;
+    margin-bottom: 20px;
 }

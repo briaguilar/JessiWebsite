@@ -21,6 +21,8 @@ time, mark, audio, video {
 
 
 
+/* Header of home page (index.html) */
+
 #navbar {
     background-color: rgb(253, 226, 230);
     height: 45px;
@@ -35,13 +37,42 @@ time, mark, audio, video {
     font-size: 15px;
 }
 
-
 #logo-container {
     margin-top: 30px;
 }
 
 .logo-picture {
     font-family: 'Liu Jian Mao Cao', cursive;
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
+    margin-top: 50px;
+}
+
+
+
+/* Content of index page */
+
+.content {
+    margin-top: 85px;
+    text-align: center;
+    
+}
+.category-tag {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'News Cycle', sans-serif;
+    color: rgb(251, 201, 209);
+}
+
+.entry-title-link {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.entry-date {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
 }

@@ -335,7 +335,6 @@ time, mark, audio, video {
 
 
 
-
 /******************************************* MEDIA QUERIES *********************************************/
 
 /* iPhone */
@@ -363,6 +362,10 @@ time, mark, audio, video {
     
     .entry-paragraph {
         text-align: center;
+    }
+
+    .search-input {
+        width: 375px;
     }
 
     .tags-title {

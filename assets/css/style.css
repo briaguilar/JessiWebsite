@@ -290,3 +290,41 @@ time, mark, audio, video {
 .search-button:hover {
     background-color: rgb(251, 164, 177);
 }
+
+
+
+/************************************* START OF SECOND ROW *******************************************/
+.row2 {
+    font-family: 'News Cycle', sans-serif;
+    margin-bottom: 50px;
+}
+.subscribe-title, .tags-title, .ads-title {
+    background-color: rgb(253, 226, 230);
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.subscribe-description {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.subscribe-form {
+    margin-top: 25px;
+}
+
+.subscribe-button {
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: rgb(253, 226, 230);
+}
+
+.subscribe-button:hover {
+    background-color: rgb(251, 164, 177);
+}
+
+.ads-image {
+    margin-top: 10px;
+    text-align: center;
+}

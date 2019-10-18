@@ -54,8 +54,12 @@ time, mark, audio, video {
 
 .content {
     margin-top: 100px;
-    width: 50%;
-    margin-left: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.content-row {
+    align-items: center;
 }
 
 
@@ -96,4 +100,15 @@ article {
     background-color: rgb(250, 171, 184);
     color: black;
     margin-bottom: 20px;
+}
+
+/* "side panel" on Index.html */
+
+/* .bio-div {
+    float: right;
+} */
+
+.bio-paragraph {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 17px;
 }

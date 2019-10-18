@@ -340,13 +340,12 @@ time, mark, audio, video {
 
 /* iPhone */
 @media only screen and (max-width: 768px) {
-
+    body {
+        width: 100%;
+    }
+    
     #navbar {
         height: 70px;
-    }
-
-    .navbar-toggler {
-        background-color: black;
     }
 
     .logo-picture {

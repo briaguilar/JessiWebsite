@@ -22,11 +22,9 @@ time, mark, audio, video {
 
 
 /******************** Header of home page (index.html) **********************/
-
 #navbar {
     background-color: rgb(253, 226, 230);
     height: 45px;
-    color: white;
     font-family: 'Liu Jian Mao Cao', cursive;
 }
 
@@ -328,3 +326,44 @@ time, mark, audio, video {
     margin-top: 10px;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+/******************************************* MEDIA QUERIES *********************************************/
+
+/* iPhone */
+@media only screen and (max-width: 768px) {
+
+    body {
+        width: 95%;
+    }
+
+
+    #navbar {
+        height: 60px;
+    }
+
+    .navbar-collapse {
+        width: auto;
+    }
+
+    .navbar-toggler {
+        background-color: black;
+    }
+
+    .logo-picture {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .columnLeft {
+
+    }
+  }

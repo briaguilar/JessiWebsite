@@ -341,19 +341,8 @@ time, mark, audio, video {
 /* iPhone */
 @media only screen and (max-width: 768px) {
 
-    body {
-        width: 95%;
-        float: none;
-        width: auto;
-    }
-
-
     #navbar {
-        height: 60px;
-    }
-
-    .navbar-collapse {
-        width: auto;
+        height: 70px;
     }
 
     .navbar-toggler {
@@ -365,7 +354,25 @@ time, mark, audio, video {
         margin-top: 100px;
     }
 
-    .article1image {
-        width: 80%;
+    .content {
+        margin-top: 60px;
     }
+
+    .article1image {
+        width: 90%;
+    }
+    
+    .entry-paragraph {
+        text-align: center;
+    }
+
+    .tags-title {
+        margin-top: 50px;
+    }
+
+    .ads-title {
+        margin-top: 50px;
+    }
+
+
   }

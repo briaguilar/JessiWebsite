@@ -345,6 +345,10 @@ time, mark, audio, video {
         height: 70px;
     }
 
+    .nav-link {
+        margin: 1px;
+    }
+
     .logo-picture {
         font-size: 30px;
         margin-top: 100px;
@@ -363,7 +367,7 @@ time, mark, audio, video {
     }
 
     .search-input {
-        width: 340px;
+        width: 300px;
     }
 
     .tags-title {
@@ -373,6 +377,5 @@ time, mark, audio, video {
     .ads-title {
         margin-top: 50px;
     }
-
 
   }

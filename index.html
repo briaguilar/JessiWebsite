@@ -7,8 +7,6 @@
 
     <!--Javascript References-->
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
 
     <!--Google Fonts References-->
     <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|News+Cycle|Tajawal&display=swap"
@@ -19,7 +17,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!--Ionicons-->
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
 
     <!--CSS Reference-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -72,46 +71,92 @@
         </nav>
 
         <div class="container" id="logo-container">
-            <p class="logo-picture">Jessica Johnson</p>
+            <p class="logo-picture">Miss Jessica Nicole</p>
         </div>
     </header>
 
 
     <div class="container content">
         <div class="row content-row">
+
+
+            <!--------------------------------------- START LEFT COLUMN ---------------------------------------->
+
             <div class="col-8">
                 <article>
-                    <header class="article-header">
-                        <span class="category entries"><a href="./assets/html/projects.html" class="category-tag"
-                                rel="category tag">HOME DECOR</a></span>
-                        <h2 class="entry-title"><a class="entry-title-link">FIREPLACE WALLPAPER</a></h2>
-                        <p class="entry-date"> February 21, 2019</p>
-                    </header>
-                    <div class="entry-content">
-                        <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/68474201_10157542339222495_6215784092198240256_n.jpg?_nc_cat=104&_nc_oc=AQk597ecoZGiPk6qe-3NNpvPMMf5ksj4M9sHT_vuR3NAtc8pE3k8XqPaFyGhcN2gdh8&_nc_ht=scontent-dfw5-1.xx&oh=8439ff8dee89366eb0a173a9411a44e8&oe=5E649177"
-                            height=745px class="entry-photo">
-                        <p class="entry-paragraph">Gosh I just love what this wallpaper from @rockymountaindecals did
-                            for
-                            our entryway.
-                            It filled in that empty space and added so much character! And the best part is that
-                            it’s peel and stick so whenever we want to remove it, it won’t damage our walls!
-                            Where would you put it in your house?? <a href="http://liketk.it/2Eahm">Click here to get
-                                it!</a> #liketkit
-                        </p>
+                    <div class="article-alignment">
+                        <header class="article-header">
+                            <span class="category entries"><a href="./assets/html/projects.html" class="category-tag"
+                                    rel="category tag">HOME DECOR</a></span>
+                            <h2 class="entry-title"><a class="entry-title-link">FIREPLACE WALLPAPER</a></h2>
+                            <p class="entry-date"> February 21, 2019</p>
+                        </header>
+                        <a href="https://www.liketoknow.it/ltk/5dCJYh5OKgx8JTUQQHl4L8" target="blank"><img
+                                src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/68474201_10157542339222495_6215784092198240256_n.jpg?_nc_cat=104&_nc_oc=AQk597ecoZGiPk6qe-3NNpvPMMf5ksj4M9sHT_vuR3NAtc8pE3k8XqPaFyGhcN2gdh8&_nc_ht=scontent-dfw5-1.xx&oh=8439ff8dee89366eb0a173a9411a44e8&oe=5E649177"
+                                height=745px class="entry-photo"></a>
+                    </div>
+                    <p class="entry-paragraph">Gosh I just love what this wallpaper from @rockymountaindecals
+                        did
+                        for
+                        our entryway.
+                        It filled in that empty space and added so much character! And the best part is that
+                        it’s peel and stick so whenever we want to remove it, it won’t damage our walls!
+                        Where would you put it in your house??
+                    </p>
+                    <p class="entry-paragraph">
+                        <a href="http://liketk.it/2Eahm">Click here to get it!</a> #liketkit
+                    </p>
+                    <section class="button-section">
                         <button type="button" class="btn" id="see-more">See More</button></a>
                         <br>
                         <img src="https://img.icons8.com/material-outlined/24/000000/facebook-f.png">
                         <img src="https://img.icons8.com/android/24/000000/twitter.png">
                         <img src="https://img.icons8.com/metro/26/000000/pinterest.png">
-                    </div>
+                    </section>
                 </article>
+                <br>
                 <hr>
+                <br>
+
+                <span>
+                    <section id="leave-a-reply-section">
+                        <h4 id="leave-a-reply-header">LEAVE A REPLY</h4>
+                        <p class="leave-a-reply"> Your email address will not be published. Required fields are marked
+                            *.</p>
+                        <br>
+                        <form>
+                            <div class="form-group">
+                                <label class="leave-reply-form-labels" for="comment-form">Comment</label>
+                                <textarea class="form-control comment-form" rows="3"></textarea>
+                            </div>
+                        </form>
+
+                        <label class="leave-reply-form-labels name-label" for="name-form">Name*</label>
+                        <input class="form-control form-control-sm name-form" type="text" required>
+
+                        <label class="leave-reply-form-labels email-label" for="email-form">Email*</label>
+                        <input class="form-control form-control-sm email-form" type="text" required>
+
+                        <label class="leave-reply-form-labels website-label" for="website-form">Website
+                            (optional)</label>
+                        <input class="form-control form-control-sm website-form" type="text">
+
+                        <button type="button" class="btn post-comment">POST COMMENT</button>
+                    </section>
+                    <br>
+                    <hr>
+                    <br>
+                </span>
+
             </div>
+
+
+
+            <!--------------------------- START RIGHT COLUMN -------------------------------->
 
             <div class="col-4">
                 <div class="bio-div">
-                    <img
-                        src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/46717230_10156871440187495_5997325919331549184_n.jpg?_nc_cat=103&_nc_oc=AQk_IBRsvtj4ol0wwbjpuuiqAzWWRUgEfFFTw_it77ziKrfRfXsrruNX_-qoajnm_ADQrtWftuPHR4ySdSvsnoYP&_nc_ht=scontent-dfw5-1.xx&oh=9193995379d1f12ff011750b7abf3bc2&oe=5E610572"
+                    <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/46717230_10156871440187495_5997325919331549184_n.jpg?_nc_cat=103&_nc_oc=AQk_IBRsvtj4ol0wwbjpuuiqAzWWRUgEfFFTw_it77ziKrfRfXsrruNX_-qoajnm_ADQrtWftuPHR4ySdSvsnoYP&_nc_ht=scontent-dfw5-1.xx&oh=9193995379d1f12ff011750b7abf3bc2&oe=5E610572"
                         height=400px>
                     <br>
                     <p class="bio-paragraph">
@@ -119,19 +164,23 @@
                         veritatis perferendis harum similique animi eveniet facilis rerum minima explicabo voluptas
                         architecto laboriosam consequatur iste, accusantium quidem quae expedita. Quas vel iure
                         exercitationem reprehenderit nisi atque illum aperiam cum laborum, soluta eveniet neque fuga
-                        similique ipsam sapiente repudiandae maiores quis obcaecati. Tenetur facere amet magnam vero
-                        delectus doloribus nemo qui itaque veniam quod illo quaerat officia, expedita quam
-                        exercitationem assumenda vel quas hic incidunt commodi, modi quasi nobis porro? Ipsum illo
-                        obcaecati veniam? Vel dolore molestiae possimus perspiciatis reprehenderit ad non, expedita
-                        nobis nemo perferendis provident veritatis officia amet dolores excepturi?
+                        similique ipsam sapiente repudiandae maiores quis obcaecati.
                     </p>
+                    <br>
+
+                    <!-- <p>
+                        Head over to my <a href="https://www.liketoknow.it/missjessicanicoleblog"
+                            target="blank">liketoknow.it</a> page!
+                    </p> -->
+                </div>
+                <br>
+
+                <div class="lets-connect-div">
+                    <p class="lets-connect">LET'S CONNECT</p>
                 </div>
             </div>
         </div>
     </div>
-
-
-
 
 
 

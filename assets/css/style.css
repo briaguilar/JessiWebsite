@@ -93,10 +93,15 @@ time, mark, audio, video {
 #see-more {
     margin-top: 30px;
     font-family: 'News Cycle', sans-serif;
-    font-size: 15px;
-    background-color: rgb(250, 171, 184);
+    font-size: 14px;
+    background-color: rgb(255, 231, 235);
     color: black;
     margin-bottom: 20px;
+    align-items: center;
+}
+
+#see-more:hover {
+    background-color: rgb(251, 164, 177);
 }
 
 
@@ -146,6 +151,10 @@ time, mark, audio, video {
     margin-bottom: 30px;
 }
 
+.post-comment:hover {
+    background-color: rgb(251, 164, 177);
+}
+
 
 /********************************* RIGHT COLUMN ********************************/
 
@@ -171,5 +180,46 @@ time, mark, audio, video {
 .lets-connect {
     background-color: rgb(253, 226, 230);
     font-family: 'News Cycle', sans-serif;
-    padding: 7px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.connect-icons {
+    margin-top: 15px;
+}
+
+
+/* FEATURED POSTS section */
+.featured-posts-div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.featured-posts-header {
+    background-color: rgb(253, 226, 230);
+    font-family: 'News Cycle', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.featuredPostDescription {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 14px;
+}
+
+.featuredArticle1:hover, .featuredArticle2:hover,
+.featuredArticle3:hover {
+    opacity: .6;
+}
+
+.featuredArticle1 {
+    margin-top: 15px;
+}
+
+.featuredArticle2, .featuredArticle3 {
+    margin-top: 80px;
+}
+
+.featuredArticle3 {
+    margin-bottom: 100px;
 }

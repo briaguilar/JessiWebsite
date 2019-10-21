@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!--Google Fonts References-->
-    <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|News+Cycle|Tajawal&display=swap"
+    <link href="https://fonts.googleapis.com/css?family=Almarai|Liu+Jian+Mao+Cao|News+Cycle|Tajawal&display=swap"
         rel="stylesheet">
 
     <!--Bootstrap-->
@@ -18,7 +18,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!--Ionicons-->
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
 
     <!--CSS Reference-->
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -50,30 +51,152 @@
                         <a class="nav-link" href="#">CONTACT<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
+
                 <span class="navbar-text">
-                    <a href="www.facebook.com">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
-                    <a href="www.instagram.com">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                    <a href="www.pinterest.com">
-                        <ion-icon name="logo-pinterest"></ion-icon>
-                    </a>
-                    <a href="www.twitter.com">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
-                    <a href="mailto: ">
-                        <ion-icon name="mail"></ion-icon>
-                    </a>
+                    <img src="https://img.icons8.com/material-outlined/24/000000/facebook-f.png">
+                    <img src="https://img.icons8.com/android/24/000000/twitter.png">
+                    <img src="https://img.icons8.com/material-sharp/24/000000/pinterest.png">
+                    <img src="https://img.icons8.com/material-rounded/24/000000/instagram-new.png">
+                    <img src="https://img.icons8.com/material-sharp/24/000000/filled-message.png">
                 </span>
             </div>
         </nav>
 
         <div class="container" id="logo-container">
-            <p class="logo-picture">Jessica Johnson</p>
+            <p class="logo-picture">Miss Jessica Nicole</p>
         </div>
     </header>
 
+    <div class="container contact-container">
+
+        <!------------------------------------------- START OF LEFT COLUMN ------------------------------------------------------------>
+        <div class="row">
+
+            <!--------------- CONTACT FORM SECTION --------------->
+            <div class="col-lg-7 col-sm-10">
+                <h2 class="contact-title font">CONTACT PAGE</h2>
+                <img src="../images/Contact.jpg" class="contact-image" width="100%">
+
+                <section class="contact-form-section">
+                    <label class="contact-name font" for="contact-name-form">Your Name (required)</label>
+                    <input class="form-control form-control-sm contact-name-form font" type="text" required>
+                    <br>
+
+                    <label class="contact-email font" for="contact-email-form">Your E-Mail (required)</label>
+                    <input class="form-control form-control-sm contact-email-form font" type="text" required>
+                    <br>
+
+                    <label class="contact-subject font" for="contact-subject-form">Subject</label>
+                    <input class="form-control form-control-sm contact-subject-form font" type="text">
+                    <br>
+
+                    <form>
+                        <div class="form-group font">
+                            <label class="contact-message" for="contact-message-form">Your Message</label>
+                            <textarea class="form-control contact-message-form font" rows="4"></textarea>
+                        </div>
+                    </form>
+                </section>
+
+                <button type="button" class="btn font send-contact-message">SEND</button>
+            </div>
+
+
+            <!-------------------------------- START OF RIGHT COLUMN ----------------------------------->
+            <div class="col-lg-4 col-sm-10 right-column">
+
+                <!--------------- BIO --------------->
+                <div class="bio-div">
+                    <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/46717230_10156871440187495_5997325919331549184_n.jpg?_nc_cat=103&_nc_oc=AQk_IBRsvtj4ol0wwbjpuuiqAzWWRUgEfFFTw_it77ziKrfRfXsrruNX_-qoajnm_ADQrtWftuPHR4ySdSvsnoYP&_nc_ht=scontent-dfw5-1.xx&oh=9193995379d1f12ff011750b7abf3bc2&oe=5E610572"
+                        height=400px>
+                    <br>
+                    <p class="bio-paragraph">
+                        Hi! My name is Jessica. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+                        veritatis perferendis harum similique animi eveniet facilis rerum minima explicabo voluptas
+                        architecto laboriosam consequatur iste, accusantium quidem quae expedita. Quas vel iure
+                        exercitationem reprehenderit nisi atque illum aperiam cum laborum, soluta eveniet neque fuga
+                        similique ipsam sapiente repudiandae maiores quis obcaecati.
+                    </p>
+                    <p class="bio-paragraph">Check out my link:</p>
+                    <a href="https://www.liketoknow.it/missjessicanicoleblog" target="blank"><img
+                            src="https://cdn.shopify.com/s/files/1/2683/7620/files/Vertical_Black.png?11362346711126893694"
+                            style="margin-top:10px" width="150px"></a>
+
+                </div>
+                <br>
+
+
+                <!-- LET'S CONNECT -->
+                <div class="lets-connect-div">
+                    <p class="lets-connect">LET'S CONNECT</p>
+                    <section class="connect-icons">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/facebook-f.png">
+                        <img src="https://img.icons8.com/android/24/000000/twitter.png">
+                        <img src="https://img.icons8.com/material-sharp/24/000000/pinterest.png">
+                        <img src="https://img.icons8.com/material-rounded/24/000000/instagram-new.png">
+                        <img src="https://img.icons8.com/material-sharp/24/000000/filled-message.png">
+                    </section>
+                </div>
+
+
+                <!-- FEATURED POSTS -->
+                <div class="featured-posts-div">
+                    <p class="featured-posts-header">FEATURED POSTS</p>
+
+                    <!-- Article 1 -->
+                    <article class="featuredArticle1">
+                        <img class="featuredPost1"
+                            src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/68474201_10157542339222495_6215784092198240256_n.jpg?_nc_cat=104&_nc_oc=AQk597ecoZGiPk6qe-3NNpvPMMf5ksj4M9sHT_vuR3NAtc8pE3k8XqPaFyGhcN2gdh8&_nc_ht=scontent-dfw5-1.xx&oh=8439ff8dee89366eb0a173a9411a44e8&oe=5E649177"
+                            height=200px;>
+                        <p class="featuredPostDescription">FIREPLACE WALLPAPER</p>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="featuredArticle2">
+                        <img class="featuredPost2"
+                            src="https://images.liketoknow.it/7bf879f0-eea9-11e9-9fed-0242ac110002?fm=jpeg&auto=format&w=405&dpr=1"
+                            height=150px;>
+                        <p class="featuredPostDescription">SHOE STYLES</p>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="featuredArticle3">
+                        <img class="featuredPost3"
+                            src="https://images.liketoknow.it/3bcc95fa-dc9f-11e9-9fed-0242ac110002?fm=jpeg&auto=format&w=405&dpr=1"
+                            height=150px;>
+                        <p class="featuredPostDescription">JUJU CLOTHES</p>
+                    </article>
+                </div>
+
+
+                <!------------------ CATEGORIES --------------------->
+                <div class="categories-div">
+                    <p class="categories-title">CATEGORIES</p>
+                    <p class="category1">FASHION</p>
+                    <p class="category2">HOME DECOR</p>
+                    <p class="category3">CHILDREN'S CLOTHING</p>
+                </div>
+
+
+                <!------------------ SEARCH ------------------------>
+                <div class="search-div">
+                    <p class="search-title">SEARCH</p>
+                    <section class="bar-and-button">
+                        <input type="text" class="form-control input-sm search-bar search-input-contactpage"
+                            placeholder="Search this website">
+                        <span class="input-group-btn">
+                            <button class="btn btn-sm search-button" type="button"><img
+                                    src="https://img.icons8.com/material/24/000000/search--v1.png"></button>
+                        </span>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
 </body>
+
 </html>
